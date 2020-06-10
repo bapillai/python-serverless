@@ -1,0 +1,27 @@
+{
+  "name": "python-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bapillai/python-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bapillai/python-serverless/issues"
+  },
+  "homepage": "https://github.com/bapillai/python-serverless#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0",
+    "serverless-wsgi": "^1.7.5"
+  },
+  "dependencies": {
+    "serverless-dynamodb-local": "^0.2.39"
+  }
+}
